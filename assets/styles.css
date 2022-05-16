@@ -1,0 +1,13 @@
+:root {
+    --third-color: #9FB1BCFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header {
+    color: green;
+}
