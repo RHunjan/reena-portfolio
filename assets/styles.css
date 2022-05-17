@@ -1,5 +1,8 @@
 :root {
-    --third-color: #9FB1BCFF;
+    --darkGreen: #02b9c7;
+    --lightGreen: #56e8ea;
+    --red: #b91b4b;
+    --grey: #ccc8c3;
 }
 
 * {
@@ -8,6 +11,59 @@
     padding:0;
 }
 
-header {
-    color: green;
+body {
+    background-color: var(--grey);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Header / Nav start*/
+
+header {
+    background-color: var(--darkGreen);
+    padding: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav {
+    margin: 10px 0; 
+}
+
+header nav ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul a {
+    padding: 10px 10px;
+    font-size: 1.9vw;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+/*Start about-me section*/
+
+article {
+    border-bottom: var(--red) 10px ;
+}
+
+  .flex-row {
+     display: flex;
+ }
+ 
+ .about-me-info {
+     padding: 20px 20px;
+
+ }
+
+ .about-me-image img {
+  max-width: 100%;
+ }
