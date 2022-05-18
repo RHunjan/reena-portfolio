@@ -68,7 +68,7 @@ header a {
      text-align: left
  }
 
- .two {flex: 1; align-items: center; background-color: #b91b4b;}
+ .two {flex: 1; align-items: center; }
  .three { flex: 2; }
 
  
@@ -96,7 +96,8 @@ header a {
 }
 
 #work h2 {text-align: left;}
- .four{flex:1; padding-right: 30px}
+ .four{flex:1; }
+ .fourA {flex: 3; margin-left:30px;}
  .five {flex:1}
  .six {flex: 1}
  .seven {flex:1}
@@ -107,7 +108,33 @@ footer {
     background-color: #02b9c7;
 }
 
- 
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
 
+      #about-me * {
+        display: block;
+        text-align: center;
+    }
+
+     #work div {
+        display: block;
+                      }
+
+    #work h2 {
+        text-align: center;
+    }
+
+    .two {
+        background-color: #b91b4b;
+        }
+
+    header nav ul a {
+        font-size: 20px;
+    }
+
+  
+}
+
+      
 
 
