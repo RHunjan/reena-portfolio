@@ -89,7 +89,7 @@ header a {
     border: solid 1px;
  }
 
-/*Work */
+/*Starting Work Section */
 
 #work {
     text-align: center;
@@ -102,7 +102,7 @@ header a {
  .six {flex: 1}
  .seven {flex:1}
 
- /* Footer */
+ /* Starting Footer */
 
 footer {
     background-color: #02b9c7;
