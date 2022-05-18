@@ -49,21 +49,65 @@ header a {
     color: var(--red);
 }
 
-/*Start about-me section*/
 
-article {
-    border-bottom: var(--red) 10px ;
-}
+
+
+/*About Me Section*/
 
   .flex-row {
-     display: flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 20px;
+      }
+
+ .one {
+     flex: 1 0 30;
+     padding-right: 20px;
+     text-align: left
  }
+
+ .two {flex: 1; align-items: center; background-color: #b91b4b;}
+ .three { flex: 2; }
+
  
- .about-me-info {
-     padding: 20px 20px;
 
+ #about-me p {
+     padding: 10px;
  }
 
- .about-me-image img {
-  max-width: 100%;
+ #about-me  {
+     text-align: center;
  }
+
+ img {
+     max-width: 200px;
+ }
+
+.border {
+    border: solid 1px;
+ }
+
+/*Work */
+
+#work {
+    text-align: center;
+}
+
+#work h2 {text-align: left;}
+ .four{flex:1; padding-right: 30px}
+ .five {flex:1}
+ .six {flex: 1}
+ .seven {flex:1}
+
+ /* Footer */
+
+footer {
+    background-color: #02b9c7;
+}
+
+ 
+
+
+
